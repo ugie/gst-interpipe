@@ -24,19 +24,19 @@ $(CHECK_REGISTRY):
 
 check_PROGRAMS = gst/test_buffer_properties \
                  gst/test_node_name_removed \
-		 gst/test_hot_plug \
-		 gst/test_block_switch \
-		 gst/test_allow_renegotiation_property \
-		 gst/test_get_caps \
-		 gst/test_set_caps \
-		 gst/test_caps_renegotiation \
-		 gst/test_interpipe_synchronization \
-		 gst/test_anonymous_connection \
-		 gst/test_reconfigure_event \
-		 gst/test_invalid_caps \
-		 gst/test_out_of_bounds_events \
-		 gst/test_in_bounds_events \
-		 gst/test_out_of_bounds_upstream_events \
+                 gst/test_hot_plug \
+                 gst/test_block_switch \
+                 gst/test_allow_renegotiation_property \
+                 gst/test_get_caps \
+                 gst/test_set_caps \
+                 gst/test_caps_renegotiation \
+                 gst/test_interpipe_synchronization \
+                 gst/test_anonymous_connection \
+                 gst/test_reconfigure_event \
+                 gst/test_invalid_caps \
+                 gst/test_out_of_bounds_events \
+                 gst/test_in_bounds_events \
+                 gst/test_out_of_bounds_upstream_events \
                  gst/test_enable_sync
 
 TESTS = $(check_PROGRAMS)
